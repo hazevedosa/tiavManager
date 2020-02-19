@@ -1,0 +1,44 @@
+SUCCESS at getting display mode?:0
+1366,768,60
+Initializing 1366--768
+Driver name (0): direct3d
+Driver name (1): opengl
+Driver name (2): opengles2
+Driver name (3): software
+4 trial: 1  Running score: 1
+55466 trial: 2  Running score: 2
+57540 trial: 3  Running score: 3
+59980 trial: 4  Running score: 4
+62206 trial: 5  Running score: 5
+64605 trial: 6  Running score: 6
+66537 trial: 7  Running score: 7
+68342 trial: 8  Running score: 8
+70496 trial: 9  Running score: 9
+72773 trial: 10  Running score: 10
+74734 trial: 11  Running score: 11
+76680 trial: 12  Running score: 12
+78913 trial: 13  Running score: 13
+81240 trial: 14  Running score: 14
+83643 trial: 15  Running score: 15
+92707 trial: 16  Running score: 16
+94635 trial: 17  Running score: 17
+96796 trial: 18  Running score: 18
+99170 trial: 19  Running score: 19
+101539 trial: 20  Running score: 20
+104604 trial: 21  Running score: 21
+106969 trial: 22  Running score: 22
+109261 trial: 23  Running score: 23
+111202 trial: 24  Running score: 24
+113355 trial: 25  Running score: 25
+115151 trial: 26  Running score: 26
+117111 trial: 27  Running score: 27
+119074 trial: 28  Running score: 28
+121485 trial: 29  Running score: 29
+123584 trial: 30  Running score: 30
+125463 trial: 31  Running score: 31
+127172 trial: 32  Running score: 32
+128905 trial: 33  Running score: 33
+130895 trial: 34  Running score: 34
+132821 trial: 35  Running score: 35
+135020 trial: 36  Running score: 36
+143371 

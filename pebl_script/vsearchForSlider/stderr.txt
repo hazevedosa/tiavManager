@@ -1,0 +1,105 @@
+Working directory: C:\Users\azevedo\Documents\pebl-exp.2.1\battery\vsearchForSlider
+PATH:--------------------------------------
+Path List:
+.\
+C:\Program Files (x86)\PEBL2\bin\..\
+
+C:\Program Files (x86)\PEBL2\bin\
+C:\Program Files (x86)\PEBL2\bin\..\media\fonts\
+C:\Program Files (x86)\PEBL2\bin\..\media\sounds\
+C:\Program Files (x86)\PEBL2\bin\..\media\images\
+C:\Program Files (x86)\PEBL2\bin\..\media\text\
+C:\Program Files (x86)\PEBL2\bin\..\pebl-lib\
+--------------------------------------
+Loading filename:[SuRT_mod.pbl]
+Processing PEBL Source File1: .\SuRT_mod.pbl
+File [.\SuRT_mod.pbl] opened successfully.
+********************
+Loading file name: [Design.pbl]
+Resolved as: [C:\Program Files (x86)\PEBL2\bin\..\pebl-lib\Design.pbl]
+Processing PEBL Source File2: C:\Program Files (x86)\PEBL2\bin\..\pebl-lib\Design.pbl
+File [C:\Program Files (x86)\PEBL2\bin\..\pebl-lib\Design.pbl] opened successfully.
+********************
+Loading file name: [Utility.pbl]
+Resolved as: [C:\Program Files (x86)\PEBL2\bin\..\pebl-lib\Utility.pbl]
+Processing PEBL Source File2: C:\Program Files (x86)\PEBL2\bin\..\pebl-lib\Utility.pbl
+File [C:\Program Files (x86)\PEBL2\bin\..\pebl-lib\Utility.pbl] opened successfully.
+********************
+Loading file name: [Math.pbl]
+Resolved as: [C:\Program Files (x86)\PEBL2\bin\..\pebl-lib\Math.pbl]
+Processing PEBL Source File2: C:\Program Files (x86)\PEBL2\bin\..\pebl-lib\Math.pbl
+File [C:\Program Files (x86)\PEBL2\bin\..\pebl-lib\Math.pbl] opened successfully.
+********************
+Loading file name: [Graphics.pbl]
+Resolved as: [C:\Program Files (x86)\PEBL2\bin\..\pebl-lib\Graphics.pbl]
+Processing PEBL Source File2: C:\Program Files (x86)\PEBL2\bin\..\pebl-lib\Graphics.pbl
+File [C:\Program Files (x86)\PEBL2\bin\..\pebl-lib\Graphics.pbl] opened successfully.
+********************
+Loading file name: [UI.pbl]
+Resolved as: [C:\Program Files (x86)\PEBL2\bin\..\pebl-lib\UI.pbl]
+Processing PEBL Source File2: C:\Program Files (x86)\PEBL2\bin\..\pebl-lib\UI.pbl
+File [C:\Program Files (x86)\PEBL2\bin\..\pebl-lib\UI.pbl] opened successfully.
+---------Loading Program---------
+Error in function 'DIST'.  Function already exists.
+Error in function 'DRAWOBJECT'.  Function already exists.
+Error in function 'GETMINDIST'.  Function already exists.
+Analyzing code for functions.
+Loading Library functions.
+SDL INITIALIZED
+Environment created
+---------Creating Evaluator-----
+No command line arguments given
+Size from command line argument: 1366|768
+---------Evaluating Program-----
+=================================================
+    Available drivers
+=================================================
+Render driver count: 4
+ the renderer uses hardware acceleration
+ present is synchronized with the refresh rate
+ the renderer supports rendering to texture
+ the renderer uses hardware acceleration
+ present is synchronized with the refresh rate
+ the renderer supports rendering to texture
+ the renderer uses hardware acceleration
+ present is synchronized with the refresh rate
+ the renderer supports rendering to texture
+ the renderer is a software fallback
+ the renderer supports rendering to texture
+=================================================
+
+
+--------------------------------------------------------------------------------
+ Application settings:
+Script name:                               [PEBL Visual Search Task]
+Wed Feb 19 17:31:56 2020
+--------------------------------------------------------------------------------
+Display Mode:  Width  (pixels)                    [1366]
+Display Mode:  Height (pixels)                    [768]
+Display Mode:  Color Depth (bits)                 [32]
+vsync mode:                                       [0]
+Software renderer mode:                           [0]
+Windowed:                                         [1]
+Resizeable:                                       [0]
+Driver hint (gDriverHint):                        [none]
+Base font (gPEBLBaseFont):                        [DejaVuSans.ttf]
+Base Mono font (gPEBLBaseFontMono):               [DejaVuSansMono.ttf]
+Base serif (gPEBLBaseFontSerif):                  [DejaVuSerif.ttf]
+Language (gLanguage):                             [EN]
+Parameter file (gParamFile):                      [params/default]
+Busy/Easy wait: (gSleepEasy):                     [1]
+Executable name: (gExecutableName):               [C:\Program Files (x86)\PEBL2\bin\pebl2.exe]
+Resource path: (gPEBLResourcePath):               [C:\Program Files (x86)\PEBL2\bin\..\]
+Resource path: (gPEBLBasePath):                   [C:\Program Files (x86)\PEBL2\bin\..\]
+Working directory: (gWorkingDirectory):           [C:\Users\azevedo\Documents\pebl-exp.2.1\battery\vsearchForSlider]
+Renderer information:
+Driver name:                                      [direct3d]
+Software fallback:                                [no]
+Hardware acceleration:                            [yes]
+Vsync with refresh rate:                          [no]
+Rendering to texture support                      [yes]
+--------------------------------------------------------------------------------
+
+Stopping execution because of quit signal.
+
+Exiting PEBL because of captured signal.
