@@ -52,4 +52,4 @@ Using the Logitech G-27 driving wheel, the driver will be able to engage the aut
 
 #### How do I define the circuit track direction?
 
-![Conditions according to subject ID and Trial number](conditions_randomization.png)
+![Conditions according to subject ID and Trial number](./conditions_randomization.png)
