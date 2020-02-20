@@ -13,45 +13,46 @@ The **pebl_script** and the **simulator** folders have the source codes for the 
 
 * Copy and paste the folder *pebl_script\vsearchForSlider* into the folder *battery* on PEBL installation directory
 
-* Install Unreal Engine V. 4.18.3
+* Install Unreal Engine V.4.18.3
 
 * Download the StraightRoadMap Unreal project from https://bit.ly/2V9JgKT
 
-* copy and paste it to the *Unreal Projects* folder that is created in your *Documents* folder
+* Copy and paste it to the *Unreal Projects* folder that is created in your *Documents* folder
 
 #### How to start the NDRT:
 
-* Specify the SubjectID and the TrialID as follows: `sub[SubjectID]_trial[TrialID]`
+* Specify the SubjectID and the TrialID as in the field *Participant Code* as follows: `sub[SubjectID]_trial[TrialID]`
+with `[SubjectID]` as the Subject ID number and `[TrialID]` as the trial number
 
-* Run the script "SuRT_mod.pbl" in PEBL.
+* Run the script `SuRT_mod.pbl` in PEBL
 
 #### How to start the eye tracking?
 
-* Run the *pupil_capture* app.
+* Run the *pupil_capture* app
 * Using APRIL tags on the screens (available at https://github.com/AprilRobotics/apriltag), define the four simulator surfaces with the *Surface Tracker* plugin, with the following names:
 
-  * `"Left Monitor"`
-  * `"Center Monitor"`
-  * `"Right Monitor"`
-  * `"PEBL Screen"`
+  * `Left Monitor`
+  * `Center Monitor`
+  * `Right Monitor`
+  * `PEBL Screen`
 
-* Make sure to use enable the *Pupil Remote* plugin and to specify the `50020` TCP Port.
+* Make sure to use enable the *Pupil Remote* plugin and to specify the `50020` TCP Port
 
 #### How to start the driving simulation?
 
-* Depending on the subject ID and the trial ID numbers (see *How do I define the circuit track direction?*), open the file:
+* Depending on the subject ID and the trial ID numbers (see *How do I define the circuit track direction?*), open the *Regular direction* file:
   * `"...\Unreal Projects\StraightRoadMap\Content\DT_Spring_Landscape\Maps\TestTrack.umap"`
 
-or the file:
+* or the *Reverse direction* file:
   * `"...\Unreal Projects\StraightRoadMap\Content\DT_Spring_Landscape\Maps\ReverseTestTrack.umap"`
 
 * Then start the simulation script on the *simulator* folder with the following command:
 
-  * `>> python .\DriveSimulator2.py [subId] [TrialID]`
+  * `>> python .\DriveSimulator.py [SubjectID] [TrialID]`
 
-* The simulation will start, with the message *"Hello, I am MAVRIC. Please enable autonomy now."*
+* The simulation will start, with the message *"Hello, I am MAVRIC. Please enable autonomy now!"*
 
-* Using the Logitech G-27 driving wheel, the driver will be able to engage the autonomous mode by pressing the wheel button of the upper left corner.
+* Using the *Logitech G-27* driving wheel, the driver will be able to engage the autonomous mode by pressing the wheel button of the upper left corner
 
 
 #### How do I define the circuit track direction?
