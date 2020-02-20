@@ -1,11 +1,11 @@
 # tiavManager
 ## Context-Adaptive Framework for Managing Drivers' Trust in Automated Vehicles
 
-###Instructions for installation and use on Windows 10 platforms
+### Instructions for installation and use on Windows 10 platforms
 
 The *pebl_script* and the *simulator* folders have the source codes for the NDRT and the driving simulation scripts, respectively.
 
-####Pre-requisites:
+#### Pre-requisites:
 
 * Install Pupil Labs software, available at https://github.com/pupil-labs/pupil
 
@@ -17,7 +17,7 @@ The *pebl_script* and the *simulator* folders have the source codes for the NDRT
 
 * Download the StraightRoadMap Unreal project from https://bit.ly/2V9JgKT; copy and paste it to the "Unreal Projects" folder that is created on your "Documents" folder
 
-####How to start the NDRT:
+#### How to start the NDRT:
 
 * Run the script "SuRT_mod.pbl" in PEBL. Specify the SubjectID and the TrialID as follows:
 
@@ -25,7 +25,7 @@ The *pebl_script* and the *simulator* folders have the source codes for the NDRT
 
 
 
-####How to start the eye tracking?
+#### How to start the eye tracking?
 
 * Run the app pupil_capture; using APRIL tags on the screens (available at [link]), define 4 surfaces with the "Surface Tracker" plugin, with the following names:
 
@@ -38,7 +38,7 @@ Make sure to use enable the Pupil Remote plugin and to specify the TCP Port `500
 
 
 
-####How to start the driving simulation?
+#### How to start the driving simulation?
 
 Depending on the subject ID number, open the file:
 `"...\Unreal Projects\StraightRoadMap\Content\DT_Spring_Landscape\Maps\TestTrack.umap"`
