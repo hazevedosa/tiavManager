@@ -21,7 +21,7 @@ The **pebl_script** and the **simulator** folders have the source codes for the 
 
 * Download and build AirSim from https://github.com/microsoft/AirSim, following the instructions. Edit settings.json (found in the AirSim folder) so that it looks like the following:
 
-`
+```settings.json
 {
   "SeeDocsAt": "https://github.com/Microsoft/AirSim/blob/master/docs/settings.md",
   "SettingsVersion": 1.2,
@@ -54,23 +54,22 @@ The **pebl_script** and the **simulator** folders have the source codes for the 
     }
   }
 }
-`
+```
 
 * Python modules: Python 3 is required, with the following modules (easily installed with `pip`)
-
- * `airsim`
- * `pygame`
- * `playsound`
- * `winsound`
- * `pyttsx3`
- * `transforms3d`
- * `transforms3d`
- * `zmq`
- * `msgpack`
- * `platform`
- * `subprocess`
- * `signal`
- * `numpy`
+   * `airsim`
+   * `pygame`
+   * `playsound`
+   * `winsound`
+   * `pyttsx3`
+   * `transforms3d`
+   * `transforms3d`
+   * `zmq`
+   * `msgpack`
+   * `platform`
+   * `subprocess`
+   * `signal`
+   * `numpy`
 
 
 #### How to start the NDRT:
