@@ -99,7 +99,7 @@ with `[SubjectID]` as the Subject ID number and `[TrialID]` as the trial number
 * or the *Reverse direction* file:
   * `"...\Unreal Projects\StraightRoadMap\Content\DT_Spring_Landscape\Maps\ReverseTestTrack.umap"`
 
-* Obs.: There is also a *training* track, tha can be loaded from the file:
+* Obs.: There is also a *training* track, that can be loaded from the file:
   * `"...\Unreal Projects\StraightRoadMap\Content\DT_Spring_Landscape\Maps\trainingTrack.umap"`
 
 * Then start the simulation script on the *simulator* folder with the following command:
