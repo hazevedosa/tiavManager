@@ -108,6 +108,10 @@ with `[SubjectID]` as the Subject ID number and `[TrialID]` as the trial number
 
 * The simulation will start, with the message *"Hello, I am MAVRIC. Please enable autonomy now!"*
 
+* Obs.: To start the *training* script, make sure to have loaded the training track and use the following command:
+
+  * `>> python .\training.py`
+
 * Using the *Logitech G-27* driving wheel, the driver will be able to engage the autonomous mode by pressing the wheel button of the upper left corner
 
 * To stop and quit the simulation while running, type `q` and then `[Enter]`
