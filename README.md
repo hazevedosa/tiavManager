@@ -72,14 +72,14 @@ The **pebl_script** and the **simulator** folders have the source codes for the 
    * `numpy`
 
 
-#### How to start the NDRT:
+#### How to start the NDRT
 
 * Specify the SubjectID and the TrialID as in the field *Participant Code* as follows: `sub[SubjectID]_trial[TrialID]`
 with `[SubjectID]` as the Subject ID number and `[TrialID]` as the trial number
 
 * Run the script `SuRT_mod.pbl` in PEBL
 
-#### How to start the eye tracking?
+#### How to start the eye tracking
 
 * Run the *pupil_capture* app
 * Using APRIL tags on the screens (available at https://github.com/AprilRobotics/apriltag), define the four simulator surfaces with the *Surface Tracker* plugin, with the following names:
@@ -91,7 +91,7 @@ with `[SubjectID]` as the Subject ID number and `[TrialID]` as the trial number
 
 * Make sure to use enable the *Pupil Remote* plugin and to specify the `50020` TCP Port
 
-#### How to start the driving simulation?
+#### How to start the driving simulation
 
 * Depending on the subject ID and the trial ID numbers (see *How do I define the circuit track direction?*), open the *Regular direction* file:
   * `"...\Unreal Projects\StraightRoadMap\Content\DT_Spring_Landscape\Maps\TestTrack.umap"`
@@ -116,7 +116,7 @@ with `[SubjectID]` as the Subject ID number and `[TrialID]` as the trial number
 
 * To stop and quit the simulation while running, type `q` and then `[Enter]`
 
-#### How do I define the circuit track direction?
+#### How to define the circuit track direction
 
 * Check with the following map:
 
