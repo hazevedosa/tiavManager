@@ -56,7 +56,7 @@ The **pebl_script** and the **simulator** folders have the source codes for the 
 }
 ```
 
-* Python modules: Python 3 is required, with the following modules (easily installed with `pip`)
+* Install Python 3 and the following (easily installed with `pip`):
    * `airsim`
    * `pygame`
    * `playsound`
