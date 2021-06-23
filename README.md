@@ -93,7 +93,7 @@ with `[SubjectID]` as the Subject ID number and `[TrialID]` as the trial number
 
 #### How to start the driving simulation
 
-* Depending on the subject ID and the trial ID numbers (see *How do I define the circuit track direction?*), open the *Regular direction* file:
+* Depending on the subject ID and the trial ID numbers (see *How do I define the circuit track direction?*), double-click to open the *Regular direction* file:
   * `"...\Unreal Projects\StraightRoadMap\Content\DT_Spring_Landscape\Maps\TestTrack.umap"`
 
 * or the *Reverse direction* file:
@@ -102,7 +102,7 @@ with `[SubjectID]` as the Subject ID number and `[TrialID]` as the trial number
 * Obs.: There is also a *training* track, that can be loaded from the file:
   * `"...\Unreal Projects\StraightRoadMap\Content\DT_Spring_Landscape\Maps\trainingTrack.umap"`
 
-* Then start the simulation script on the *simulator* folder with the following command:
+* Start the simulation by clicking Play (make sure to play in a **New Editor Window**). Then start the python script on the *simulator* folder, with the following command:
 
   * `>> python .\DriveSimulator.py [SubjectID] [TrialID]`
 
